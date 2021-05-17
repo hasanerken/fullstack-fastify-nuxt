@@ -1,0 +1,10 @@
+{
+  "name": "@providers/config",
+  "version": "0.4.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "env-var": "^7.0.0"
+  }
+}

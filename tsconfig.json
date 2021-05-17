@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@client/*": [
+        "client/*"
+      ],
+      "@providers/*": [
+        "providers/*"
+      ],
+      "@server/*": [
+        "server/*"
+      ]
+    },
+    "types": [
+      "@types/node"
+    ]
+  },
+  "exclude": [
+    "client",
+    "dist",
+    "node_modules"
+  ]
+}
